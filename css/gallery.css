@@ -1,0 +1,28 @@
+.gallery-header{
+    background-color:#fac59a !important ;
+}
+.featured-categories-section-gallery{
+    margin: 5rem 0 !important;
+}
+.featured-product-container{
+    margin-bottom: -4rem;
+}
+.navbar-item.active{
+    color:#36b68c;
+}
+.ring-headding h1{
+    font-size: 5rem;
+    font-family:'Alex Brush', cursive;
+}
+.ring-headding{
+    text-align: center;
+}
+.gallery-container{
+    margin-top: 1rem !important;
+}
+.ring-section{
+    margin-top: 0rem !important;
+}
+.ring-container{
+    margin-top: 2rem;
+}

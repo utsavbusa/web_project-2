@@ -349,8 +349,9 @@ font-weight: bold;
 .contact-us .box-container{
     width: 90%;
     margin: auto;
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(15rem,1fr));
+    display: flex;
+    /* grid-template-columns: repeat(auto-fit,minmax(15rem,1fr)); */
+    
     gap: 1.5rem;
     align-items: flex-start;
     justify-content:space-around;
@@ -360,6 +361,7 @@ font-weight: bold;
     text-align: center;
     border-right: 1px solid hsla(0,0%,80%,.4);
     height: auto;
+    flex-basis: 22%;
 }
 .contact-us .box-container .box i{
     font-size: 4rem;

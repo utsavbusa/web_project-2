@@ -133,7 +133,34 @@
     .righ-form-container textarea{
         width: 100%;
     }
+    .footer h2{
+        width: 90%;
+        margin: auto;
+        font-size: 1rem;
+    }
     .footer{
-        font-size: 0.6rem;
+        text-align: center;
+    }
+    .contact-us .box-container{
+        display: block;
+        width: 100%;
+        margin: 2rem 0;
+    }
+    .contact-us .box-container .box{
+        width: 100%;
+        margin: 2rem 0;
+    }
+    /* mediaquary for galley page  */
+    .row{
+        display: block !important;
+        width: 90%;
+        margin: auto;
+    }
+    .row>div{
+        margin: 2rem 0;
+    }
+    .ring-headding>h1{
+        font-size: 30rem;
+        
     }
 }
