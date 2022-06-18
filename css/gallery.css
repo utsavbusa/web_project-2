@@ -2,7 +2,7 @@
     background-color:#fac59a !important ;
 }
 .featured-categories-section-gallery{
-    margin: 5rem 0 !important;
+    margin-bottom: 5rem 0 !important;
 }
 .featured-product-container{
     margin-bottom: -4rem;
@@ -25,4 +25,23 @@
 }
 .ring-container{
     margin-top: 2rem;
+}
+.gallery-full-banner img{
+    width: 100%;
+    height: 80vh;
+}
+.gallery-full-banner-for-mobile{
+    display: none;
+}
+@media(max-width:768px){
+    .gallery-full-banner-for-mobile{
+        display:block;
+    }
+    .gallery-full-banner{
+        display: none;
+    }
+    .gallery-full-banner-for-mobile img{
+        width: 100%;
+        height: 30vh;
+    }
 }
