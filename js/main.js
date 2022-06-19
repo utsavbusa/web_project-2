@@ -46,3 +46,18 @@ let slides=document.querySelectorAll('.slide-container');
         //  gallery section swiper js 
 
 
+        let testimonial=document.querySelectorAll('.testimonials-content');
+        let index1=0;
+
+        // next function
+
+        function next1(){
+            testimonial[index1].classList.remove('on');
+            document.getElementsByClassName("btn-1")[index1].style.backgroundColor = "white";
+            index1 = (index1 + 1 ) % testimonial.length;
+            testimonial[index1].classList.add('on');
+            document.getElementsByClassName("btn-1")[index1].style.backgroundColor = "black";
+
+        }
+
+        setInterval(next1,3000);
