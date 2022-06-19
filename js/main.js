@@ -40,6 +40,7 @@ let slides=document.querySelectorAll('.slide-container');
         // autoplay
 
         setInterval(next,4000);
+        
         slides[0].addEventListener("swiped-right",next());
         slides[0].addEventListener("swiped-left",prev());
         //  gallery section swiper js 

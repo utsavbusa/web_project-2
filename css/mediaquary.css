@@ -145,10 +145,12 @@
         display: block;
         width: 100%;
         margin: 2rem 0;
+        height: auto;
     }
     .contact-us .box-container .box{
         width: 100%;
         margin: 2rem 0;
+        height: fit-content;
     }
     /* mediaquary for galley page  */
     .row{
