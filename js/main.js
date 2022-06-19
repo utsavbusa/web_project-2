@@ -37,13 +37,16 @@ let slides=document.querySelectorAll('.slide-container');
             slides[index].classList.add('active');
         }
 
+         //  gallery section swiper js 
+        slides[0].addEventListener("swiped-right",next());
+        slides[0].addEventListener("swiped-left",prev());
+
         // autoplay
 
         setInterval(next,4000);
         
-        slides[0].addEventListener("swiped-right",next());
-        slides[0].addEventListener("swiped-left",prev());
-        //  gallery section swiper js 
+       
+       
 
 
         let testimonial=document.querySelectorAll('.testimonials-content');
